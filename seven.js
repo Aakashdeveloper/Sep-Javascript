@@ -24,3 +24,6 @@ you will take input from user as password
 and it should alphnumeric if valid allow acces else deny
 
 "^[1-30]\/[1-12]\/[2018-2099]\:[]"
+
+"^[a-z]+[A-Z]+[0-9]+$"
+

@@ -1,3 +1,12 @@
 > Install NodeJS (https://nodejs.org/en/download/)
 > Use Cmd and navigate to the folder
 > node filename
+
+"^([a-zA-z @ _ !]+[0-9]+)$"
+"^([a-zA-Z])([a-zA-z@_!]+[0-9]+)$"
+
+
+var a = "a123"
+a.match("^([a-zA-Z])([a-zA-z@_!]+[0-9]+)$")
+
+replace('\./g')
