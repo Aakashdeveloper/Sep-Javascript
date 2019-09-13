@@ -10,3 +10,18 @@ var a = "a123"
 a.match("^([a-zA-Z])([a-zA-z@_!]+[0-9]+)$")
 
 replace('\./g')
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgit.git
+git push -u origin master
+
+
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+git checkout -b branchname
+
+git revert HEAD
