@@ -26,7 +26,7 @@ function isEven(a){
 isEven(2)
 
 
-var add = (a,b) => {
+const add = (a,b) => {
     var out  = a+b
     return out
 }

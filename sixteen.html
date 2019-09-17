@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Form</title>
+        <script>
+            const validate = () => {
+                var name = document.getElementById('fname').value;
+                if( name == '' || name == ' '){
+                    document.getElementById('message').innerText="Please enter value"
+                }else{
+                    out = name.charAt(0).toUpperCase()+name.slice(0).toLowerCase()
+                    document.getElementById('fname').value = out
+                    document.getElementById('message').innerText="You value is valid"
+                }
+            }
+            //a == 10 ? (b = b+2):(b=b+4)
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>FirstName</label>
+            <input type="text" id="fname" onblur="validate()">
+            <label>LastName</label>
+            <input type="text" id="lname">
+            <p style="color:red" id="message"></p>
+        </form>
+    </body>
+</html> 
