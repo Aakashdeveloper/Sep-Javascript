@@ -5,11 +5,13 @@
             const validate = () => {
                 var name = document.getElementById('fname').value;
                 if( name == '' || name == ' '){
-                    document.getElementById('message').innerText="Please enter value"
+                    document.getElementById('message').innerText="Please enter value";
+                    document.getElementById('message').style.color="red"
                 }else{
                     out = name.charAt(0).toUpperCase()+name.slice(0).toLowerCase()
                     document.getElementById('fname').value = out
                     document.getElementById('message').innerText="You value is valid"
+                    document.getElementById('message').style.color="green"
                 }
             }
             //a == 10 ? (b = b+2):(b=b+4)
@@ -22,7 +24,7 @@
             <input type="text" id="fname" onblur="validate()">
             <label>LastName</label>
             <input type="text" id="lname">
-            <p style="color:red" id="message"></p>
+            <p id="message">dbfb</p>
         </form>
     </body>
 </html> 
