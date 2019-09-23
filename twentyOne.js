@@ -20,6 +20,7 @@ var nao = new human('john')
 
 
 /*
+__proto
 classes
 constructor
 for in/of
