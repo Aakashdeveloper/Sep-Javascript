@@ -27,3 +27,8 @@ git checkout -b branchname
 git revert HEAD
 
 https://github.com/PKRekha/JSExamples
+
+
+package.json
+babel
+node_modules
