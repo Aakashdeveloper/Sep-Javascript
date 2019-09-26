@@ -1,0 +1,21 @@
+{
+  "name": "transpile",
+  "version": "1.0.0",
+  "description": "this is javascript",
+  "main": "one.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "babel"
+  ],
+  "author": "nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "babel-polyfill": "^6.26.0"
+  }
+}

@@ -32,3 +32,11 @@ https://github.com/PKRekha/JSExamples
 package.json
 babel
 node_modules
+
+
+Step1
+>Go to the folder with cmd
+> npm init
+> Answer all Questions
+> type 'yes'
+> npm install @babel/core @babel/preset-env @babel/register babel-polyfill
